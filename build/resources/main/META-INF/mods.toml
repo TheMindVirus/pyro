@@ -1,0 +1,19 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+issueTrackerURL="https://github.com/MrTJP/ProjectRed"
+license="MIT"
+
+[[mods]]
+    modId="projectred_rebuild"
+    displayName="ProjectRed-Rebuild"
+    version="1.18.2"
+    authors="Eloraam, MrTJP, Chicken Bones, covers1624, TheMindVirus"
+    description='''
+Redstone. Not the way it was meant to be. Rebuilt.
+    '''
+[[dependencies.projectred_rebuild]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
