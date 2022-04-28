@@ -4,5 +4,5 @@ and can't even create any blocks as per the documentation.
 
 https://mcforge.readthedocs.io/en/1.18.x/concepts/registries/
 
-![screenshot](https://github.com/themindvirus/pyro/blob/template/SCREENSHOT.PNG)
+![screenshot](https://github.com/themindvirus/pyro/blob/template/screenshot.png)
 
