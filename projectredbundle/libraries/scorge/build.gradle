@@ -1,0 +1,63 @@
+buildscript
+{
+    repositories
+    {
+        maven { url = 'https://maven.minecraftforge.net' }
+        mavenCentral()
+    }
+    dependencies
+    {
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
+    }
+}
+
+plugins
+{
+    id 'scala'
+}
+apply plugin: 'net.minecraftforge.gradle'
+
+java { toolchain { languageVersion = JavaLanguageVersion.of(17) } }
+
+version = getVersion()
+group = 'net.minecraftforge'
+archivesBaseName = 'Scorge'
+
+repositories
+{
+    mavenCentral()
+}
+
+minecraft
+{
+    mappings channel: 'snapshot', version: "${mappings_version}"
+    runs
+    {
+        client
+        {
+            properties 'forge.logging.markers': 'SCAN,REGISTRIES,REGISTRYDUMP'
+            properties 'forge.logging.console.level': 'debug'
+            workingDirectory project.file('run').canonicalPath
+            source sourceSets.main
+        }
+        server
+        {
+            properties 'forge.logging.markers': 'SCAN,REGISTRIES,REGISTRYDUMP'
+            properties 'forge.logging.console.level': 'debug'
+            workingDirectory project.file('run').canonicalPath
+            source sourceSets.main
+        }
+    }
+}
+
+dependencies
+{
+    minecraft "net.minecraftforge:forge:${mc_version}-${forge_version}"
+    implementation group: 'org.scala-lang', name: 'scala3-library_3', version: scala_version
+}
+
+jar
+{
+    classifier ""
+    manifest { attributes(["Class-Path": "Scorge"]) }
+}

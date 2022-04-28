@@ -1,0 +1,141 @@
+buildscript
+{
+    repositories
+    {
+        maven { url = 'https://maven.minecraftforge.net' }
+        mavenCentral()
+    }
+    dependencies
+    {
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
+    }
+}
+
+plugins
+{
+    id 'scala'
+}
+apply plugin: 'net.minecraftforge.gradle'
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+archivesBaseName = 'projectred'
+group = 'com.cd.${archivesBaseName}'
+
+sourceSets
+{
+    core
+    expansion
+    exploration
+    illumination
+    integration
+    transmission
+}
+
+sourceSets.each
+{
+    it.resources.srcDirs += "src/${it.name}/generated"
+}
+
+sourceSets.all
+{ set ->
+    def jarTask = task("${set.name}Jar", type: Jar)
+    {
+        baseName = "$set.name"
+        from set.output
+    }
+    artifacts { archives jarTask }
+}
+
+mod_version = System.getenv("AUTO_GENERATED_VERSION") ?: "${mod_version}.${Instant.now().getEpochSecond()}"
+version = "${mc_version}-${mod_version}"
+
+println "Starting build of ${archivesBaseName}, Version: ${mod_version}"
+println "Using Forge: ${forge_version}, for Minecraft: ${mc_version}, with Mappings: ${mappings_version}"
+
+minecraft
+{
+    mappings channel: 'snapshot', version: "${mappings_version}"
+    accessTransformer = file("src/core/resources/META-INF/accesstransformer.cfg")
+    runs
+    {
+        client
+        {
+            workingDirectory project.file('run').canonicalPath
+            mods
+            {
+                '${archivesBaseName}-core' { source sourceSets.core }
+                '${archivesBaseName}-expansion' { source sourceSets.expansion }
+                '${archivesBaseName}-exploration' { source sourceSets.exploration }
+                '${archivesBaseName}-illumination' { source sourceSets.illumination }
+                '${archivesBaseName}-integration' { source sourceSets.integration }
+                '${archivesBaseName}-transmission' { source sourceSets.transmission }
+            }
+        }
+
+        server
+        {
+            workingDirectory project.file('run').canonicalPath
+            mods
+            {
+                '${archivesBaseName}-core' { source sourceSets.core }
+                '${archivesBaseName}-expansion' { source sourceSets.expansion }
+                '${archivesBaseName}-exploration' { source sourceSets.exploration }
+                '${archivesBaseName}-illumination' { source sourceSets.illumination }
+                '${archivesBaseName}-integration' { source sourceSets.integration }
+                '${archivesBaseName}-transmission' { source sourceSets.transmission }
+            }
+        }
+
+        sourceSets.each
+        {
+            "${it.name}Data"
+            {
+                workingDirectory file('run')
+                args '--mod', "${archivesBaseName}-${it.name}".toString(), '--all', '--output', file("src/${it.name}/generated"), '--existing', file("src/${it.name}/resources")
+                mods
+                {
+                    '${archivesBaseName}-core' { source sourceSets.core }
+                    '${archivesBaseName}-expansion' { source sourceSets.expansion }
+                    '${archivesBaseName}-exploration' { source sourceSets.exploration }
+                    '${archivesBaseName}-illumination' { source sourceSets.illumination }
+                    '${archivesBaseName}-integration' { source sourceSets.integration }
+                    '${archivesBaseName}-transmission' { source sourceSets.transmission }
+                }
+            }
+        }
+    }
+}
+
+configurations
+{
+    coreCompile.extendsFrom compile
+
+    moduleCompile.extendsFrom coreCompile
+
+    expansionCompile.extendsFrom moduleCompile
+    explorationCompile.extendsFrom moduleCompile
+    illuminationCompile.extendsFrom moduleCompile
+    integrationCompile.extendsFrom moduleCompile
+    transmissionCompile.extendsFrom moduleCompile
+}
+
+dependencies
+{
+    minecraft "net.minecraftforge:forge:${mc_version}-${forge_version}"
+
+    // Scorge and Scala dependencies
+    implementation group: 'org.scala-lang', name: 'scala3-library_3', version: scala_version
+    implementation files("libraries/Scorge.jar")
+
+    // ProjectRed Core dependencies
+    coreCompile "codechicken:CodeChickenLib:${mc_version}-${ccl_version}:deobf"
+    coreCompile "codechicken:CBMultipart:${mc_version}-${cbm_version}:deobf"
+}
+
+jar
+{
+    classifier "core"
+}
+
+println sourceSets.core.resources.srcDirs
