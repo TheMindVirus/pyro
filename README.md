@@ -3,6 +3,8 @@ Towards a Minecraft Engine to replace blaze3d that runs in Python called pyro
 
 WIP 1.18.2 resurrection of projectred/redpower2 by Eloraam/MrTJP
 
+#### LATEST: ModId's in mods.toml (inside the .jar/.zip file under META-INF) are not allowed to have "-" to be replaced with "_"
+
 ![screenshot](https://github.com/themindvirus/pyro/blob/main/screenshot.png)
 
 #### They broke a lot of stuff. Server-side. Closed-Source. Authoritatively.
