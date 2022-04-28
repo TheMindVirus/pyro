@@ -1,0 +1,320 @@
+M:\MC\forge\projectred-core>.\gradlew.bat build
+To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/7.4/userguide/gradle_daemon.html#sec:disabling_the_daemon.
+Daemon will be stopped at the end of the build
+
+> Configure project :
+Starting build of projectred-core, Version: 4.9.4.1651104391
+Using Forge: 40.1.0, for Minecraft: 1.18.2, with Mappings: 20201028-1.16.3
+
+> Task :compileScala
+[Warn] : bad option '-target:17' was ignored
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\gui\itemcol.scala:14:29: value util is not a member of net.minecraft.client - did you mean client.main?
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\item\itemident.scala:8:22: value item is not a member of net.minecraft - did you mean minecraft.Util?
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\item\itemident.scala:25:38: Not found: type CompoundNBT
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\item\coreitem.scala:8:22: value item is not a member of net.minecraft - did you mean minecraft.Util?
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\inventory\invwrapper.scala:9:22: value inventory is not a member of net.minecraft
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\inventory\SimpleInventory.scala:8:22: value item is not a member of net.minecraft - did you mean minecraft.Util?
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\inventory\invtraits.scala:9:22: value entity is not a member of net.minecraft
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\inventory\invtraits.scala:10:22: value inventory is not a member of net.minecraft
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\gui\NodeContainer.scala:10:22: value entity is not a member of net.minecraft
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\gui\NodeContainer.scala:11:22: value inventory is not a member of net.minecraft
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\handler\packethandlers.scala:71:38: Cyclic reference involving val <import>
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\compatibility\ComputerCraftCompatibility.scala:4:8: Not found: dan200
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\recipes.scala:5:22: value inventory is not a member of net.minecraft
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\recipes.scala:6:22: value item is not a member of net.minecraft - did you mean minecraft.Util?
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\recipes.scala:7:22: value item is not a member of net.minecraft - did you mean minecraft.Util?
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\recipes.scala:14:34: Not found: type ResourceLocation
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\recipes.scala:14:99: Not found: type NonNullList
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\propagation.scala:4:20: value multipart is not a member of codechicken
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\items.scala:5:22: value entity is not a member of net.minecraft
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\items.scala:6:22: value item is not a member of net.minecraft - did you mean minecraft.Util?
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\content.scala:8:20: value microblock is not a member of codechicken
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\content.scala:9:20: value microblock is not a member of codechicken
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\content.scala:181:37: Not found: type ResourceLocation
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\content.scala:182:33: Not found: type ResourceLocation
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\content.scala:12:22: value block is not a member of net.minecraft
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\content.scala:14:22: value item is not a member of net.minecraft - did you mean minecraft.Util?
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\content.scala:346:51: Not found: type RecipeProvider
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\content.scala:279:78: Not found: type ItemTagsProvider
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\content.scala:204:81: Not found: type ItemModelProvider
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\UVT.scala:6:13: Not found: type Transformation
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\UVT.scala:6:37: Not found: type UVTransformation
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\RenderHalo.scala:7:27: value matrix is not a member of com.mojang.blaze3d
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\RenderHalo.scala:10:38: value vertex is not a member of net.minecraft.client.renderer
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\RenderHalo.scala:12:27: value math is not a member of net.minecraft.util - did you mean util.Mth?
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\RenderHalo.scala:32:72: Not found: type Cuboid6
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\packethandlers.scala:60:38: Cyclic reference involving val <import>
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\packethandlers.scala:4:31: value ICustomPacketHandler is not a member of codechicken.lib.packet
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\handler\packethandlers.scala:8:31: value ICustomPacketHandler is not a member of codechicken.lib.packet
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\gui\NodeGui.scala:8:27: value matrix is not a member of com.mojang.blaze3d
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\gui\NodeGui.scala:12:33: value screen is not a member of net.minecraft.client.gui - did you mean gui.screens?
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\gui\NodeGui.scala:13:22: value entity is not a member of net.minecraft
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\gui\NodeGui.scala:14:22: value inventory is not a member of net.minecraft
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\gui\NodeGui.scala:15:27: value text is not a member of net.minecraft.util - did you mean util.Unit?
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\block\coreblock.scala:9:22: value block is not a member of net.minecraft
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\block\coreblock.scala:10:22: value item is not a member of net.minecraft, but could be made available as an extension method.
+
+One of the following imports might fix the problem:
+
+  import mrtjp.core.item.ItemKeyConversions.itemToIK
+  import mrtjp.core.item.ItemKeyConversions.stackToIK
+
+
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\block\coreblock.scala:12:22: value block is not a member of net.minecraft
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\block\coreblock.scala:13:22: value item is not a member of net.minecraft - did you mean minecraft.Util?
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\block\coreblock.scala:14:27: value math is not a member of net.minecraft.util - did you mean util.Mth?
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\block\tileblock.scala:12:22: value block is not a member of net.minecraft
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\block\tileblock.scala:13:22: value entity is not a member of net.minecraft
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\block\tileblock.scala:14:22: value entity is not a member of net.minecraft
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\block\tileblock.scala:15:22: value item is not a member of net.minecraft - did you mean minecraft.Util?
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\block\tileblock.scala:17:22: value tileentity is not a member of net.minecraft
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\block\tileblock.scala:19:27: value math is not a member of net.minecraft.util - did you mean util.Mth?
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\block\tileblock.scala:488:31: Not found: type MCDataOutput
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\block\tileblock.scala:490:32: Not found: type MCDataInput
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\data\KeyTracking.scala:12:29: value settings is not a member of net.minecraft.client
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\data\KeyTracking.scala:13:22: value entity is not a member of net.minecraft
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\data\KeyTracking.scala:18:31: value client is not a member of net.minecraftforge.fml - did you mean fml.event?
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\data\KeyTracking.scala:27:9: Declaration of method updatePlayerKey not allowed here: only classes can have declared but undefined members
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\data\KeyTracking.scala:29:13: Not found: id
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\data\KeyTracking.scala:29:20: Not found: player
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\data\KeyTracking.scala:32:9: Declaration of method registerTracker not allowed here: only classes can have declared but undefined members
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\data\KeyTracking.scala:34:9: Not found: tracker
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\data\KeyTracking.scala:36:29: Not found: tracker
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\data\KeyTracking.scala:69:27: value getInstance is not a member of object net.minecraft.client.Minecraft
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\data\KeyTracking.scala:70:70: value getInstance is not a member of object net.minecraft.client.Minecraft
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\data\KeyTracking.scala:71:34: Not found: type PacketCustom
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\data\configurations.scala:15:16: Not found: type ConfigTag
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\data\configurations.scala:31:43: value ConfigTag is not a member of codechicken.lib.config
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\data\configurations.scala:42:36: Reference to value is ambiguous,
+it is both defined in method put
+and imported subsequently by import (<error value ConfigTag is not a member of codechicken.lib.config>#TagType :
+  <error value ConfigTag is not a member of codechicken.lib.config>
+)._
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\data\configurations.scala:45:18: Reference to loaded is ambiguous,
+it is both defined in class ModConfig
+and imported subsequently by import (<error value ConfigTag is not a member of codechicken.lib.config>#TagType :
+  <error value ConfigTag is not a member of codechicken.lib.config>
+)._
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\data\configurations.scala:47:17: Reference to value is ambiguous,
+it is both defined in method put
+and imported subsequently by import (<error value ConfigTag is not a member of codechicken.lib.config>#TagType :
+  <error value ConfigTag is not a member of codechicken.lib.config>
+)._
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\data\configurations.scala:59:21: Reference to force is ambiguous,
+it is both defined in method put
+and imported subsequently by import (<error value ConfigTag is not a member of codechicken.lib.config>#TagType :
+  <error value ConfigTag is not a member of codechicken.lib.config>
+)._
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\data\configurations.scala:62:27: Reference to value is ambiguous,
+it is both defined in method put
+and imported subsequently by import (<error value ConfigTag is not a member of codechicken.lib.config>#TagType :
+  <error value ConfigTag is not a member of codechicken.lib.config>
+)._
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\data\configurations.scala:66:26: Stable identifier required, but <error value ConfigTag is not a member of codechicken.lib.config>#TagType.
+  BOOLEAN found
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\data\configurations.scala:67:26: Stable identifier required, but <error value ConfigTag is not a member of codechicken.lib.config>#TagType.INT found
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\data\configurations.scala:68:26: Stable identifier required, but <error value ConfigTag is not a member of codechicken.lib.config>#TagType.STRING found
+[Error] M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\data\configurations.scala:69:26: Stable identifier required, but <error value ConfigTag is not a member of codechicken.lib.config>#TagType.DOUBLE found
+java.util.NoSuchElementException: head of empty list while compiling M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\block\coreblock.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\block\plants.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\block\tileblock.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\data\KeyTracking.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\data\configurations.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\fx\AlphaChangeAction.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\fx\ColourChangeAction.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\fx\DelayAction.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\fx\GroupAction.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\fx\KillAction.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\fx\OrbitAction.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\fx\ParticleAction.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\fx\PositionChangeAction.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\fx\RepeatAction.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\fx\ScaleAction.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\fx\SequenceAction.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\fx\TargetChangeAction.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\fx\TextureChangeAction.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\fx\particles\BeamMulti.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\fx\particles\BeamParticle.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\fx\particles\BeamPulse2.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\fx\particles\CoreParticle.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\fx\particles\SpriteParticle.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\gui\GuiHandler.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\gui\GuiLib.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\gui\NodeContainer.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\gui\NodeGui.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\gui\TNode.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\gui\button.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\gui\clip.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\gui\invslot.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\gui\itemcol.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\gui\itemlist.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\gui\package.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\gui\pan.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\gui\sideselect.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\gui\tabs.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\gui\textbox.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\handler\mod.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\handler\packethandlers.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\handler\proxies.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\inventory\SimpleInventory.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\inventory\TInventoryCapablilityTile.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\inventory\invtraits.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\inventory\invwrapper.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\item\coreitem.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\item\itemequality.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\item\itemident.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\math\MathLib.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\math\PerlinNoiseGenerator.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\render\RenderLib.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\util\Enum.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\util\PostponedWorkItem.java, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\vec\InvertX.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\vec\Line3.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\vec\ModelRayTracer.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\vec\Point.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\vec\Point3.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\vec\Rect.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\vec\Size.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\vec\Vec2.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\vec\Vec3.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\vec\VecLib.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\world\WorldGenCaveReformer.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\world\WorldGenClusterizer.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\world\WorldGenDecorator.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\world\WorldGenVolcanic.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\world\WorldLib.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\world\blocktickhook.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\world\genhandler.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\world\genlogic.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\core\world\messages.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\ProjectRedCore.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\api\IBundledEmitter.java, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\api\IBundledTile.java, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\api\IBundledTileInteraction.java, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\api\IConditionallyMovable.java, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\api\IConnectable.java, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\api\IFrame.java, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\api\IFrameInteraction.java, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\api\IMaskedBundledTile.java, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\api\IMovementCallback.java, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\api\IMovementDescriptor.java, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\api\IRelocationAPI.java, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\api\IScrewdriver.java, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\api\ISpecialLinkState.java, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\api\ITileMover.java, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\api\ITransmissionAPI.java, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\api\ITransportationAPI.java, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\api\ProjectRedAPI.java, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\api\Relocator.java, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\api\StickResolver.java, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\compatibility\ComputerCraftCompatibility.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\BundledSignalsLib.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\Configurator.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\CoreTile.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\IProxy.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\PRLib.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\RecipeLib.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\RenderHalo.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\ShapelessOreNBTCopyRecipe.java, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\UVT.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\bundledrsparts.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\connectableparts.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\connectabletiles.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\content.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\items.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\nbtsenstiverecipes.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\packethandlers.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\parttraits.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\powerparts.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\powertraits.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\propagation.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\proxies.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\recipes.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\core\rsparttraits.scala, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\redui\AbstractGuiNode.java, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\redui\ButtonNode.java, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\redui\RedUINode.java, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\redui\RedUIRootNode.java, M:\MC\forge\projectred-core\src\main\scala\mrtjp\projectred\redui\RedUIScreen.java
+## Exception when compiling 121 sources to M:\MC\forge\projectred-core\build\classes\scala\main
+java.util.NoSuchElementException: head of empty list
+scala.collection.immutable.Nil$.head(List.scala:662)
+scala.collection.immutable.Nil$.head(List.scala:661)
+dotty.tools.dotc.core.TypeOps$.intersect$1(TypeOps.scala:214)
+dotty.tools.dotc.core.TypeOps$.$anonfun$3(TypeOps.scala:348)
+dotty.tools.dotc.core.Types$Type.mapReduceOr(Types.scala:479)
+dotty.tools.dotc.core.Types$Type.mapReduceOr(Types.scala:479)
+dotty.tools.dotc.core.TypeOps$.approximateOr$1(TypeOps.scala:348)
+dotty.tools.dotc.core.TypeOps$.orDominator(TypeOps.scala:362)
+dotty.tools.dotc.core.Types$OrType.join(Types.scala:3251)
+dotty.tools.dotc.core.Types$Type.classSymbol(Types.scala:524)
+dotty.tools.dotc.typer.Applications.targetClass$1(Applications.scala:2132)
+dotty.tools.dotc.typer.Applications.harmonizeWith(Applications.scala:2139)
+dotty.tools.dotc.typer.Applications.harmonize(Applications.scala:2166)
+dotty.tools.dotc.typer.Applications.harmonize$(Applications.scala:317)
+dotty.tools.dotc.typer.Typer.harmonize(Typer.scala:119)
+dotty.tools.dotc.typer.Typer.$anonfun$25(Typer.scala:1622)
+dotty.tools.dotc.typer.Applications.harmonic(Applications.scala:2183)
+dotty.tools.dotc.typer.Applications.harmonic$(Applications.scala:317)
+dotty.tools.dotc.typer.Typer.harmonic(Typer.scala:119)
+dotty.tools.dotc.typer.Typer.typedMatchFinish(Typer.scala:1622)
+dotty.tools.dotc.typer.Typer.typedMatch(Typer.scala:1578)
+dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:2823)
+dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2872)
+dotty.tools.dotc.typer.Typer.typed(Typer.scala:2937)
+dotty.tools.dotc.typer.Typer.typed(Typer.scala:2941)
+dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3057)
+dotty.tools.dotc.typer.Namer.typedAheadExpr$$anonfun$1(Namer.scala:1473)
+dotty.tools.dotc.typer.Namer.typedAhead(Namer.scala:1463)
+dotty.tools.dotc.typer.Namer.typedAheadExpr(Namer.scala:1473)
+dotty.tools.dotc.typer.Namer.typedAheadRhs$1$$anonfun$1(Namer.scala:1710)
+dotty.tools.dotc.typer.PrepareInlineable$.dropInlineIfError(PrepareInlineable.scala:238)
+dotty.tools.dotc.typer.Namer.typedAheadRhs$1(Namer.scala:1710)
+dotty.tools.dotc.typer.Namer.rhsType$1(Namer.scala:1718)
+dotty.tools.dotc.typer.Namer.cookedRhsType$1(Namer.scala:1736)
+dotty.tools.dotc.typer.Namer.lhsType$1(Namer.scala:1737)
+dotty.tools.dotc.typer.Namer.inferredResultType(Namer.scala:1748)
+dotty.tools.dotc.typer.Namer.inferredType$1(Namer.scala:1512)
+dotty.tools.dotc.typer.Namer.valOrDefDefSig(Namer.scala:1519)
+dotty.tools.dotc.typer.Namer$Completer.typeSig(Namer.scala:778)
+dotty.tools.dotc.typer.Namer$Completer.completeInCreationContext(Namer.scala:914)
+dotty.tools.dotc.typer.Namer$Completer.complete(Namer.scala:806)
+dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:168)
+dotty.tools.dotc.core.Denotations$Denotation.completeInfo$1(Denotations.scala:188)
+dotty.tools.dotc.core.Denotations$Denotation.info(Denotations.scala:190)
+dotty.tools.dotc.core.SymDenotations$SymDenotation.ensureCompleted(SymDenotations.scala:370)
+dotty.tools.dotc.typer.Typer.retrieveSym(Typer.scala:2751)
+dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:2776)
+dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2871)
+dotty.tools.dotc.typer.Typer.typed(Typer.scala:2937)
+dotty.tools.dotc.typer.Typer.typed(Typer.scala:2941)
+dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:2963)
+dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3013)
+dotty.tools.dotc.typer.Typer.typedBlockStats(Typer.scala:1069)
+dotty.tools.dotc.typer.Typer.typedBlock(Typer.scala:1073)
+dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:2817)
+dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2872)
+dotty.tools.dotc.typer.Typer.typed(Typer.scala:2937)
+dotty.tools.dotc.typer.Typer.typed(Typer.scala:2941)
+dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3057)
+dotty.tools.dotc.typer.Typer.$anonfun$47(Typer.scala:2256)
+dotty.tools.dotc.typer.PrepareInlineable$.dropInlineIfError(PrepareInlineable.scala:238)
+dotty.tools.dotc.typer.Typer.typedDefDef(Typer.scala:2256)
+dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:2786)
+dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2871)
+dotty.tools.dotc.typer.Typer.typed(Typer.scala:2937)
+dotty.tools.dotc.typer.Typer.typed(Typer.scala:2941)
+dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:2963)
+dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3013)
+dotty.tools.dotc.typer.Typer.typedClassDef(Typer.scala:2454)
+dotty.tools.dotc.typer.Typer.typedTypeOrClassDef$1(Typer.scala:2797)
+dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:2801)
+dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2871)
+dotty.tools.dotc.typer.Typer.typed(Typer.scala:2937)
+dotty.tools.dotc.typer.Typer.typed(Typer.scala:2941)
+dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:2963)
+dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3013)
+dotty.tools.dotc.typer.Typer.typedClassDef(Typer.scala:2454)
+dotty.tools.dotc.typer.Typer.typedTypeOrClassDef$1(Typer.scala:2797)
+dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:2801)
+dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2871)
+dotty.tools.dotc.typer.Typer.typed(Typer.scala:2937)
+dotty.tools.dotc.typer.Typer.typed(Typer.scala:2941)
+dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:2963)
+dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3013)
+dotty.tools.dotc.typer.Typer.typedPackageDef(Typer.scala:2581)
+dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:2842)
+dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2872)
+dotty.tools.dotc.typer.Typer.typed(Typer.scala:2937)
+dotty.tools.dotc.typer.Typer.typed(Typer.scala:2941)
+dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3057)
+dotty.tools.dotc.typer.TyperPhase.typeCheck$$anonfun$1(TyperPhase.scala:47)
+dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:411)
+dotty.tools.dotc.typer.TyperPhase.typeCheck(TyperPhase.scala:54)
+dotty.tools.dotc.typer.TyperPhase.runOn$$anonfun$3(TyperPhase.scala:88)
+scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+scala.collection.immutable.List.foreach(List.scala:333)
+dotty.tools.dotc.typer.TyperPhase.runOn(TyperPhase.scala:88)
+dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:259)
+scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1328)
+dotty.tools.dotc.Run.runPhases$1(Run.scala:270)
+dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:278)
+scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:68)
+dotty.tools.dotc.Run.compileUnits(Run.scala:287)
+dotty.tools.dotc.Run.compileSources(Run.scala:220)
+dotty.tools.dotc.Run.compile(Run.scala:204)
+dotty.tools.dotc.Driver.doCompile(Driver.scala:39)
+dotty.tools.dotc.Driver.process(Driver.scala:199)
+dotty.tools.dotc.Main.process(Main.scala)
+xsbt.CachedCompilerImpl.run(CachedCompilerImpl.java:67)
+xsbt.CompilerInterface.run(CompilerInterface.java:59)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+sbt.internal.inc.AnalyzingCompiler.call(AnalyzingCompiler.scala:248)
+sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:122)
+sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:95)
+sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4(MixedAnalyzingCompiler.scala:91)
+scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+sbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:186)
+sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$3(MixedAnalyzingCompiler.scala:82)
+sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$3$adapted(MixedAnalyzingCompiler.scala:77)
+sbt.internal.inc.JarUtils$.withPreviousJar(JarUtils.scala:215)
+sbt.internal.inc.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:77)
+sbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:146)
+sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:343)
+sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:343)
+sbt.internal.inc.Incremental$.doCompile(Incremental.scala:120)
+sbt.internal.inc.Incremental$.$anonfun$compile$4(Incremental.scala:100)
+sbt.internal.inc.IncrementalCommon.recompileClasses(IncrementalCommon.scala:180)
+sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:98)
+sbt.internal.inc.Incremental$.$anonfun$compile$3(Incremental.scala:102)
+sbt.internal.inc.Incremental$.manageClassfiles(Incremental.scala:155)
+sbt.internal.inc.Incremental$.compile(Incremental.scala:92)
+sbt.internal.inc.IncrementalCompile$.apply(Compile.scala:75)
+sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:348)
+sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:301)
+sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:168)
+sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:248)
+sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:74)
+org.gradle.api.internal.tasks.scala.ZincScalaCompiler.execute(ZincScalaCompiler.java:157)
+org.gradle.api.internal.tasks.scala.ZincScalaCompilerFacade.execute(ZincScalaCompilerFacade.java:47)
+org.gradle.api.internal.tasks.scala.ZincScalaCompilerFacade.execute(ZincScalaCompilerFacade.java:32)
+org.gradle.api.internal.tasks.compile.daemon.AbstractDaemonCompiler$CompilerWorkAction.execute(AbstractDaemonCompiler.java:135)
+org.gradle.workers.internal.DefaultWorkerServer.execute(DefaultWorkerServer.java:63)
+org.gradle.workers.internal.AbstractClassLoaderWorker$1.create(AbstractClassLoaderWorker.java:49)
+org.gradle.workers.internal.AbstractClassLoaderWorker$1.create(AbstractClassLoaderWorker.java:43)
+org.gradle.internal.classloader.ClassLoaderUtils.executeInClassloader(ClassLoaderUtils.java:97)
+org.gradle.workers.internal.AbstractClassLoaderWorker.executeInClassLoader(AbstractClassLoaderWorker.java:43)
+org.gradle.workers.internal.IsolatedClassloaderWorker.run(IsolatedClassloaderWorker.java:49)
+org.gradle.workers.internal.IsolatedClassloaderWorker.run(IsolatedClassloaderWorker.java:30)
+org.gradle.workers.internal.WorkerDaemonServer.run(WorkerDaemonServer.java:87)
+org.gradle.workers.internal.WorkerDaemonServer.run(WorkerDaemonServer.java:56)
+org.gradle.process.internal.worker.request.WorkerAction$1.call(WorkerAction.java:138)
+org.gradle.process.internal.worker.child.WorkerLogEventListener.withWorkerLoggingProtocol(WorkerLogEventListener.java:41)
+org.gradle.process.internal.worker.request.WorkerAction.run(WorkerAction.java:135)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+
+
+> Task :compileScala FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileScala'.
+> head of empty list
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.4/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 29s
+1 actionable task: 1 executed
+Press any key to continue . . .
