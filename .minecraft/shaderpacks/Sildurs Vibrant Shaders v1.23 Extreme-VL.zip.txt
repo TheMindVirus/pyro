@@ -1,0 +1,4 @@
+#Mon Apr 25 21:17:21 BST 2022
+bloom_strength=1.0
+Godrays_Density=9.2
+Godrays=true

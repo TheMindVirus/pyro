@@ -1,0 +1,294 @@
+{
+  "computercraft:recipes/computercraft/printer": {
+    "criteria": {
+      "has_computer": "2022-04-25 15:14:23 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/wired_modem": {
+    "criteria": {
+      "has_computer": "2022-04-25 15:14:23 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/monitor_advanced": {
+    "criteria": {
+      "has_computer": "2022-04-25 15:14:23 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2022-04-25 12:52:36 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/wired_modem_full_from": {
+    "criteria": {
+      "has_modem": "2022-04-25 15:15:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2022-04-25 12:52:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2022-04-25 20:40:15 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_16": {
+    "criteria": {
+      "has_drive": "2022-04-25 21:00:14 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_14": {
+    "criteria": {
+      "has_drive": "2022-04-25 21:00:14 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_1": {
+    "criteria": {
+      "has_drive": "2022-04-25 21:00:14 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_15": {
+    "criteria": {
+      "has_drive": "2022-04-25 21:00:14 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_2": {
+    "criteria": {
+      "has_drive": "2022-04-25 21:00:14 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_12": {
+    "criteria": {
+      "has_drive": "2022-04-25 21:00:14 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_13": {
+    "criteria": {
+      "has_drive": "2022-04-25 21:00:14 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/wireless_modem_normal": {
+    "criteria": {
+      "has_computer": "2022-04-25 15:14:23 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_10": {
+    "criteria": {
+      "has_drive": "2022-04-25 21:00:14 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_11": {
+    "criteria": {
+      "has_drive": "2022-04-25 21:00:14 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/turtle_normal": {
+    "criteria": {
+      "has_normal": "2022-04-25 15:10:44 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/cable": {
+    "criteria": {
+      "has_computer": "2022-04-25 15:14:23 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2022-04-25 12:52:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2022-04-25 12:52:36 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/wireless_modem_advanced": {
+    "criteria": {
+      "has_computer": "2022-04-25 15:14:23 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2022-04-25 12:52:36 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/turtle_advanced": {
+    "criteria": {
+      "has_advanced": "2022-04-25 15:10:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:savanna_plateau": "2022-04-25 15:14:43 +0100",
+      "minecraft:forest": "2022-04-25 12:48:19 +0100",
+      "minecraft:meadow": "2022-04-25 14:36:35 +0100",
+      "minecraft:savanna": "2022-04-25 20:59:44 +0100"
+    },
+    "done": false
+  },
+  "computercraft:recipes/computercraft/pocket_computer_normal": {
+    "criteria": {
+      "has_computer": "2022-04-25 15:14:23 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/computer_normal": {
+    "criteria": {
+      "has_redstone": "2022-04-25 15:10:44 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/wired_modem_full_to": {
+    "criteria": {
+      "has_modem": "2022-04-25 15:15:02 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/pocket_computer_advanced": {
+    "criteria": {
+      "has_computer": "2022-04-25 15:14:23 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2022-04-25 12:52:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2022-04-25 21:01:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2022-04-25 12:52:36 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/speaker": {
+    "criteria": {
+      "has_computer": "2022-04-25 15:14:23 +0100"
+    },
+    "done": true
+  },
+  "phireworks:recipes/phireworks": {
+    "criteria": {
+      "has_paper": "2022-04-25 14:58:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_lantern": {
+    "criteria": {
+      "has_soul_torch": "2022-04-25 14:38:22 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/monitor_normal": {
+    "criteria": {
+      "has_computer": "2022-04-25 15:14:23 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_7": {
+    "criteria": {
+      "has_drive": "2022-04-25 21:00:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2022-04-25 12:52:36 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_8": {
+    "criteria": {
+      "has_drive": "2022-04-25 21:00:14 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_9": {
+    "criteria": {
+      "has_drive": "2022-04-25 21:00:14 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_3": {
+    "criteria": {
+      "has_drive": "2022-04-25 21:00:14 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_4": {
+    "criteria": {
+      "has_drive": "2022-04-25 21:00:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_blasting_redstone_ore": {
+    "criteria": {
+      "has_redstone_ore": "2022-04-25 13:26:56 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_5": {
+    "criteria": {
+      "has_drive": "2022-04-25 21:00:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_smelting_redstone_ore": {
+    "criteria": {
+      "has_redstone_ore": "2022-04-25 13:26:56 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_6": {
+    "criteria": {
+      "has_drive": "2022-04-25 21:00:14 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_drive": {
+    "criteria": {
+      "has_computer": "2022-04-25 15:14:23 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot_from_netherite_block": {
+    "criteria": {
+      "has_netherite_block": "2022-04-25 21:00:44 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 2975
+}
