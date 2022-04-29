@@ -1,0 +1,6 @@
+{
+    "variants":
+    {
+        "": { "model": "mod:block/example_block" }
+    }
+}

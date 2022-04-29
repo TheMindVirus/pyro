@@ -1,0 +1,9 @@
+{
+    "required": false,
+    "minVersion": "0.8",
+    "package": "net.fabricmc.mod.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [],
+    "client": ["ModMixin"],
+    "injectors": { "defaultRequire": 1 }
+}
